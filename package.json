@@ -1,0 +1,25 @@
+{
+  "name": "Food",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node App.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm --prefix React && run build --prefix React"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.19",
+    "nodemailer": "^6.5.0",
+    "randomatic": "^3.1.1",
+    "uuid-int": "^3.0.3"
+  },
+  "engines": {
+    "node": "14.7.0"
+  }
+}
