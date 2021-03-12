@@ -9,8 +9,8 @@ function sendmail(receiveremailid, subjectline, emailbody)
         port: 465, // Port
         secure: true, // this is true as port is 465
         auth: {
-            user: 'project.gen.email.check@gmail.com', //Gmail username
-            pass: 'Password@123' // Gmail password
+            user: 'XXXXXXXXXXXXX@gmail.com', //Gmail username
+            pass: 'XXXXXXXXXXX' // Gmail password
         }
     });
  
