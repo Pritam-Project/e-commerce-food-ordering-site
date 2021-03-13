@@ -1,0 +1,19 @@
+a {
+    color:  white;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: Cambria;
+
+}
+a:hover{color: white;}
+
+.in{
+    margin-left:50px;
+    margin-right:50px;
+    text-decoration: white;
+    padding-top: 13px;
+    text-align: left;
+    
+}
+
+
